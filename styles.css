@@ -1,0 +1,164 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    border: none;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+header li a:hover {
+    background-color: #111;
+}
+header nav {
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2);
+}
+body {
+    background-color: rgb(69, 69, 69);
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+}
+#upper {
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    flex-direction: column;
+}
+#title1 {
+    display: flex; 
+    justify-content: left;
+    font-size: 10vh;
+    margin-right: 50%
+}
+#sticky {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(183, 183, 183, 0.616);
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    object-fit: contain;
+    margin-top: 20%
+    }
+#sticky ul {
+    list-style-type: none;
+}
+#sticky li a {
+    display: block
+}
+#sticky li a:hover {
+    background-color: white;
+}
+ #me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+#picofme {
+    height: 55vh;
+     
+}
+
+#title2 {
+    display: flex;
+    justify-content: center;
+    
+    font-size: 5vh
+
+}
+#about {
+    display: flex;
+    justify-content: center;
+    font-size: 7vh; 
+    
+}
+#middle {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#amtit {
+    padding: 5vh;
+
+}
+#paragraph {
+    display: flex; 
+    justify-content: center;
+    font-size: 2.5vh;
+    margin: 1cm auto 1cm;
+        width: 70%;
+        text-align: center;
+}
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#connectBtn  {
+    padding: 2vh;
+    background-color: rgba(53, 206, 255, .6);
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2);
+    border: white;
+    color: white;
+    border-radius: 20px;
+    width: 120%;
+    font-size: 2vh
+}
+#connectBtn:hover {
+    cursor: pointer;
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(113, 113, 113);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(53, 206, 255, 0.5);
+}
+#skills-heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#skills {
+    text-align: center;
+    padding: 9vh;
+    font-size: 7vh;
+}
+#project-heading {
+    display: flex;
+    justify-content: center;
+}
+#projects {
+    text-align: center;
+    font-size: 7vh;
+    padding: 8vh
+}
