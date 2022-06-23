@@ -160,5 +160,17 @@ body {
 #projects {
     text-align: center;
     font-size: 7vh;
-    padding: 8vh
+    padding: 12vh
+}
+#ytvid {
+    display: flex; 
+    justify-content: center;
+    padding: 3vh
+}
+#project-type {
+    display: flex;
+    justify-content: center;
+}
+#project-1 {
+    font-size: 4vh;
 }
