@@ -3,6 +3,7 @@
     margin: 0; 
     padding: 0; 
     border: none;
+    scroll-behavior: smooth;
 }
 header ul {
     list-style-type: none;
